@@ -13,8 +13,9 @@
   </head>
 
   <body>
-    <%# Create a separate file. Use that file here %>
       <%= render 'layouts/header'%>
+       <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
       <%= yield %>
     </main>
   </body>
